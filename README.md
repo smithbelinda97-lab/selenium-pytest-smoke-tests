@@ -125,21 +125,9 @@ Belinda Smith
 ## ✅ WHY THIS VERSION IS STRONG
 
 - ✔ Clean Markdown (renders perfectly on GitHub)
-- ✔ Matches your **actual code**
+- ✔ Matches the **actual code**
 - ✔ Recruiter-friendly
 - ✔ Shows framework ownership
 - ✔ No misleading or outdated info
 
-This README now **supports your project**, instead of underselling it.
-
----
-
-## 🛠️ NEXT STEP (VERY QUICK)
-
-After pasting this:
-
-```bash
-git checkout main
-git add README.md
-git commit -m "Update README with full automation framework details"
-git push origin main
+This README now **supports the project**, instead of underselling it.
