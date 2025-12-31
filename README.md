@@ -20,17 +20,45 @@ cart operations, checkout flows, menu verification, and reset app state scenario
 ## 📂 Project Structure
 🔹 Complete Project Structure section
 
-Selenium Project/
-├── tests/
-│ └── test_smoke.py
-├── venv/
+selenium-pytest-automation-framework/
+│
+├── pages/                  # Page Object Model classes
+│   ├── base_page.py         # Common reusable methods (waits, screenshots, etc.)
+│   ├── login_page.py        # Login page actions and locators
+│   ├── home_page.py         # Product, cart, menu actions
+│   └── checkout_page.py     # Checkout and order completion actions
+│
+├── tests/                  # Test cases
+│   ├── smoke/               # Smoke tests
+│   │   └── test_smoke.py
+│   ├── test_login_001.py
+│   ├── test_invalid_login_002.py
+│   ├── test_checkout_003.py
+│   ├── test_multi_product_checkout_004.py
+│   └── test_cart_menu_sort_reset_005.py
+│
+├── utils/                  # Utilities
+│   └── driver_factory.py   # WebDriver setup and browser configuration
+│
+├── reports/                # HTML test reports (generated at runtime)
+│
+├── conftest.py              # Pytest fixtures and hooks
 ├── .gitignore
 ├── README.md
+└── Test_Plan.md
+
 ---
 
 ## ✅ Test Scenarios
-- Open Google homepage
-- Verify the page title contains "Google"
+- Smoke test to verify application launch
+- Valid login and logout
+- Invalid login error validation
+- Add products to cart
+- Remove products and verify cart count
+- Sort products by price (Low to High)
+- Complete checkout flow (single and multiple products)
+- Verify hamburger menu options
+- Reset application state and validate cart reset
 ---
 
 ## ▶️ How to Run the Tests
