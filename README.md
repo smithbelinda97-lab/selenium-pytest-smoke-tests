@@ -1,7 +1,9 @@
-# Selenium Pytest Smoke Test Project
+# Selenium Pytest Automation Framework
 
-This is a beginner-friendly Selenium automation project built using **Python**, **pytest**, and **WebDriverManager**.  
-The project demonstrates how to set up a clean automation framework, run a basic smoke test, and manage the project using Git.
+This project is a complete Selenium automation framework built using Python and Pytest.
+It follows the Page Object Model and includes smoke tests, login validation,
+cart operations, checkout flows, menu verification, and reset app state scenarios.
+
 
 ---
 
