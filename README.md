@@ -1,5 +1,10 @@
 # Selenium Pytest Automation Framework
 
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Pytest](https://img.shields.io/badge/Pytest-9.0.2-green)
+![Selenium](https://img.shields.io/badge/Selenium-Automation-brightgreen)
+
+
 This project is a complete Selenium automation framework built using **Python** and **Pytest**.
 It follows the **Page Object Model (POM)** and includes smoke tests, login validation,
 cart operations, checkout flows, menu verification, and reset app state scenarios.
